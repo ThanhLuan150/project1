@@ -1,0 +1,155 @@
+*{ 
+    color:#000000;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #2c2c2c;
+
+
+}
+.container{
+  position: fixed;
+  z-index: 3;
+  background:whitesmoke;
+}
+
+
+.headers{
+  position: fixed;
+  display: block;
+  z-index: 1;
+  background-color: rgb(252, 244, 245);
+  width: 1600px;
+  
+}
+
+
+.col-md-3 :hover{
+  color: rgb(241, 46, 79);
+}
+
+.row :hover{
+  color:rgb(241, 46, 79) ;
+}
+
+.row .col-md-3 ul li span :hover{
+  color:rgb(241, 46, 79) ;
+}
+
+.img :hover{
+  transform: scale(3,3)
+}
+
+.diachi{
+  color:#000000;
+  text-decoration: none;
+}
+
+.diachi1{
+  color:white;
+
+}
+
+
+
+img{
+    transform: scale(1);
+    transition: all 0.01s;
+}
+
+img:hover{
+  transform: scale(1.1);
+}
+
+
+/* sổ menu*/
+
+
+.col-sm-3 .submenu{
+  display: none;
+}
+
+
+.col-sm-3 li:hover .submenu{
+    display: block;
+}
+
+
+
+
+.submenu li { 
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 39px;
+    text-indent: 10px;
+}
+
+.col-sm-3 .submenu{
+    position: absolute;
+    width: 250px;
+    background-color:white;
+    min-height: 150px;
+}
+
+.menu-big {
+    list-style: none;
+    margin-left:60px ;
+    border: 1px solid whitesmoke ;
+    
+}
+
+.contaner.content-top{
+    position: absolute;
+   
+}
+
+.submenu {
+    margin-left:-40px;
+
+}
+
+.submenu :hover{
+    color: red;
+    transition: ease-in 0.10s;
+    -moz-transition: ease-in 0.10s;
+    -webkit-transition: ease-in 0.10s;
+}
+
+
+
+
+
+.submenu-1 .submenu-1ul{
+    display: none;
+
+}
+
+.submenu-1:hover .submenu-1ul{
+    display: block;
+}
+
+.submenu-1:hover .submenu-1ul{
+    display: block;
+    position: absolute;
+    line-height: 15px;
+    margin-left: 250px;
+    margin-top: -22px;
+    border: 1px solid rgb(245, 242, 243) ;
+    background-color: rgb(245, 242, 243) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
